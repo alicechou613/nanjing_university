@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+    <title></title>
+    <!--设置视口-->
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1"/>
+    <!--导入css-->
+    <link rel="stylesheet" href="./css/bootstrap.css"/>
+    <!--导入3个js-->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/index.css"/>
+</head>
+<body>
+<div class="container">
+    <!--首页头部1-->
+    <div class="div_header1 d-sm-none d-md-block">
+        <div>
+            <div class="float-left">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="" class="nav-link p-0 mr-1 ml-1">学生</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link p-0 mr-1 ml-1">教职工</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link p-0 mr-1 ml-1">考生</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link p-0 mr-1 ml-1">校友</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link p-0 mr-1 ml-1">访客</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="float-right" id="header1">
+                <ul class="nav flex-row-reverse">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link p-0 mr-1 ml-1">
+                            English
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link p-0 mr-1 ml-1">
+                            OA
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link p-0 mr-1 ml-1">
+                            捐赠
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link p-0 mr-1 ml-1">
+                            教师邮箱
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link p-0 mr-1 ml-1">
+                            学生邮箱
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link p-0 mr-1 ml-1">
+                            信息公开
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--首页头部2-->
+    <div class="div_header2 d-sm-none d-md-block">
+        <div class="m-auto clearfix">
+            <div class="float-left">
+                <img src="./images/logo.png" alt="南京大学" class=""/>
+            </div>
+            <div class="div_header2_right float-right">
+                <div class="div_header2_query float-right">
+                    <img src="./images/sous.png" alt="" class="viewport"/>
+                </div>
+                <img src="./images/by.png" alt="" class="viewport"/>
+            </div>
+        </div>
+    </div>
+    <!-- 首页头部导航栏 -->
+    <div class="navbar navbar-expand d-sm-none d-lg-block my_bg1 p-0">
+        <div class="w-100">
+            <div class="my_collapse_nav w-100 position-absolute" data-toggle="collapse" data-target="#nav_collapse">
+            </div>
+            <div class="my_nav d-block">
+            <ul class="navbar-nav py-1 justify-content-around">
+            <li class="nav-item">
+                <a href="" class="nav-link  text-white ">
+                    <span>南大概况</span>
+                    <img src="./images/navj.png" class="mx-1"  alt=""/>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link  text-white">
+                    <span>院系部门</span>
+                    <img src="./images/navj.png" class="mx-1"  alt=""/>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link  text-white">
+                    <span>招生就业</span>
+                    <img src="./images/navj.png" class="mx-1"  alt=""/>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link  text-white">
+                    <span>人才培养</span>
+                    <img src="./images/navj.png" class="mx-1"  alt=""/>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link  text-white">
+                    <span>科学研究</span>
+                    <img src="./images/navj.png" class="mx-1"  alt=""/>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link  text-white">
+                    <span>合作交流</span>
+                    <img src="./images/navj.png" class="mx-1"  alt=""/>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link  text-white">
+                    <span>文化生活</span>
+                    <img src="./images/navj.png" class="mx-1"  alt=""/>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link  text-white">
+                    <span>校园服务</span>
+                    <img src="./images/navj.png" class="mx-1"  alt=""/>
+                </a>
+            </li>
+        </ul>
+            </div>
+
+            <div class="my_nav2 collapse clearfix justify-content-between flex-row py-1" id="nav_collapse">
+                <div class="float-left bg-transparent px-1">
+                    <ul class="nav flex-column">
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">南大简介</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">现任领导</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">历任领导</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">南大校史</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">统计资料</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white ">南大标识</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="float-left bg-transparent px-1">
+                    <ul class="nav flex-column">
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">党群组织</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">行政部门</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">院系设置</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">直属单位</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="float-left bg-transparent px-1 ">
+                    <ul class="nav flex-column">
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">招生</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">奖助学</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">就业创业</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="float-left bg-transparent px-1">
+                    <ul class="nav flex-column">
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">师资队伍</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">本科生</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">研究生</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">留学生</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">成人教育</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white ">远程教育</a>
+                        </li>
+                        <li class="nav-item p-1">
+                        <a href="" class="nav-link p-0 text-white ">三三制教学</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="float-left bg-transparent px-1">
+                    <ul class="nav flex-column">
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">科研动态</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">科研机构</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">成果查询</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">学术期刊</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="float-left bg-transparent px-1">
+                    <ul class="nav flex-column">
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">国际合作</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">合作办学</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">学术交流</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">成果转化</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="float-left bg-transparent px-1">
+                    <ul class="nav flex-column">
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">南大青年</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">工会</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">小百合BBS</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">微媒体</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="float-left bg-transparent px-1">
+                    <ul class="nav flex-column">
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">电话黄页</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">南大校历</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">鼓楼服务大厅</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">图书馆</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white">心理咨询</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white ">后勤服务</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white ">网络服务</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white ">媒体采访</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white ">在线支付</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a href="" class="nav-link p-0 text-white ">超算服务</a>
+                        </li>
+                    </ul>
+                </div>
+             </div>
+        </div>
+    </div>
+    <!--小屏的header-->
+    <div class="header_smxs d-md-none">
+        <div class="navbar navbar-expand-md my_bg2 p-0">
+            <!--三条线-->
+            <button class="navbar-toggler navbar_icon d-block float-left" data-toggle="collapse" data-target="#sm_header">
+                </button>
+            <!--不折叠的-->
+            <div id="sm_header" class="w-100 div_sm_icon">
+                <a href="#" class="sm_header_a">
+                    <img src="./images/logo.png" class="bg-transparent icon_size" alt=""/>
+                </a>
+            </div>
+            <div id="content" class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">asfdf</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">asfdf</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">asfdf</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--轮播图-->
+    <div class="carousel mx-lg-5 d-sm-none d-md-block" data-ride="carousel" id="banner">
+        <!--轮播图片-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/ceb79a04-5cd2-4c92-b41d-7bf59ec14c6c.jpg" alt="" class="w-100"/>
+                <h2 class="my_bg3">跨越大洋的桃李芬芳 ——南京大学与威斯康辛大学麦迪逊分校启动全面战略合作伙伴关系</h2>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/0f81f0e2-32cb-44c7-b2a2-940c2a86ee50.jpg" alt="" class="w-100"/>
+                <h2 class="my_bg3">南京大学举行建校117周年庆祝大会 加快推进一流科创新体系建设</h2>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/82de7030-943a-4c51-ac04-11e0b7a05785.jpg" alt="" class="w-100"/>
+                <h2 class="my_bg3">南京大学庆祝新中国成立70周年暨建校117周年交响音乐会在江苏大剧院举行</h2>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/685cd40f-371b-418b-b6b3-24bb46e54c5a.jpg" alt="" class="w-100"/>
+                <h2 class="my_bg3">南京大学第38届校园十大歌星赛精彩唱响</h2>
+            </div>
+        </div>
+        <!--左右箭头-->
+        <a href="#banner" class="carousel-control-prev d-sm-none d-lg-block" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#banner" class="carousel-control-next d-sm-none d-lg-block" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <!--南大新闻和公告通知-->
+    <div class="my_width">
+        <div class="w-100 row mt-4 mx-0">
+            <!--南大新闻-->
+            <div class="col-lg-8 col-sm-6 p-0">
+                <!--标题南大新闻-->
+                <div class="clearfix mb-2">
+                    <p class="h5 float-left my_h5_color">南大新闻</p>
+                    <img src="./images/more.jpg" alt="" class="float-right"/>
+                </div>
+                <!--内容1-->
+                <div class="div_new">
+                    <div class="clearfix position-absolute">
+                        <a href="#" class="d-block w-100 a_new position-absolute">
+                            <img class="d-block img_new w-100" src="./images/aec6bf26-0106-41a6-9f66-1e0037dc485b.jpg" alt=""/>
+                        </a>
+                        <div class="position-absolute div_img_h6"></div>
+                        <a href="#" class="d-block position-relative h6 text-white font-weight-bold  img_h6">南京大学召开新时代本科教育工作会议劳育论坛</a>
+                    </div>
+                    <a href="" class="">
+                        <p class="h6 my_h6_color">
+                            教育部学位中心在南京大学开展学科评估专题调研
+                        </p>
+                    </a>
+                </div>
+                <!--内容2-->
+                <div class="div_new mx-0">
+                    <a href="" class="">
+                        <p class="h6 my_h6_color">
+                            教育部学位中心在南京大学开展学科评估专题调研
+                        </p>
+                    </a>
+                    <div class="my_time">2019-06-01</div>
+                    <div class="my_new_p">
+                        <a href="#" class="">
+                            2019年5月31日上午，教育部学位与研究生教育发展中心（以下简称教育部学位中心）主任黄宝印一行就全国第五轮学科评估来江苏省进行座谈调研。会议由教育部学位与研究生教育发展中心主办，江苏省教育厅和南京大学承办...
+                        </a>
+                    </div>
+                </div>
+                <!--内容3-->
+                <div class="div_new ml-0 my-0 my_new_margin_right">
+                    <a href="" class="">
+                        <p class="h6 my_h6_color">
+                            南京中超百货超市向我校捐资助学
+                        </p>
+                    </a>
+                    <div class="my_time">2019-05-31</div>
+                    <div class="my_new_p">
+                        <a href="#" class="">
+                            5月30日，南京中超百货超市有限公司捐赠签约仪式在我校仙林校区举行。南京中超百货超市有限公司董事长邱中超、总经理钱春梅，南京大学党委副书记薛海林以及教育发展基金会、房产处等部门负责同志参加捐赠仪式。仪式...
+                        </a>
+                    </div>
+                </div>
+                <!--内容4-->
+                <div class="div_new mr-0">
+                    <div class="clearfix position-absolute">
+                        <a href="#" class="d-block w-100 a_new position-absolute">
+                            <img class="d-block img_new" src="./images/aa8f8183-40e0-4607-86b3-25b48281bebf.jpg" alt=""/>
+                        </a>
+                        <div class="position-absolute div_img_h6"></div>
+                        <a href="#" class="d-block position-relative h6 text-white font-weight-bold  img_h6">我校召开“心理育人”工作推进会  5•25心理健康节同期闭幕</a>
+                    </div>
+                    <a href="" class="">
+                        <p class="h6 my_h6_color">
+                            教育部学位中心在南京大学开展学科评估专题调研
+                        </p>
+                    </a>
+                </div>
+                <!--轮播指示器-->
+                <div class=""></div>
+            </div>
+            <!--公告通知-->
+            <div class="col-lg-4 col-sm-12">
+                <!--标题公告通知-->
+                <div class="notice_div">
+                    <div class="clearfix mb-2">
+                        <p class="h5 float-left my_h5_color">公告通知</p>
+                        <img src="./images/more.jpg" alt="" class="float-right"/>
+                    </div>
+                </div>
+                <!--内容-->
+                <div class="notice_div">
+                    <div class="notice w-100">
+                        <div class="div_note">
+                            <ul class="w-100">
+                                <!--li1-->
+                                <li class="clearfix">
+                                    <!--日期-->
+                                    <div class="float-left div_time text-center">
+                                        <div class="div_date">
+                                        24
+                                        </div>
+                                        <div class="div_month">2019-05</div>
+                                    </div>
+                                    <!--内容-->
+                                    <div class="notice_detail ml-1 float-left ml-3">
+                                        <a href="" class="">校长办公室关于2018-2019学年第二学期期末教学工作的通知</a>
+                                    </div>
+                                </li>
+                                <!--li2-->
+                                <li class="clearfix">
+                                    <!--日期-->
+                                    <div class="float-left div_time text-center">
+                                        <div class="div_date">
+                                            24
+                                        </div>
+                                        <div class="div_month">2019-05</div>
+                                    </div>
+                                    <!--内容-->
+                                    <div class="notice_detail ml-1 float-left ml-3">
+                                        <a href="" class="">校领导鼓楼校区值班表（5月27日--5月31日）</a>
+                                    </div>
+                                </li>
+                                <!--li3-->
+                                <li class="clearfix">
+                                    <!--日期-->
+                                    <div class="float-left div_time text-center">
+                                        <div class="div_date">
+                                            09
+                                        </div>
+                                        <div class="div_month">2019-05</div>
+                                    </div>
+                                    <!--内容-->
+                                    <div class="notice_detail ml-1 float-left ml-3">
+                                        <a href="" class="">关于调整南京大学建校117周年庆祝大会召开时间的通知</a>
+                                    </div>
+                                </li>
+                                <!--li4-->
+                                <li class="clearfix border-bottom-0">
+                                    <!--日期-->
+                                    <div class="float-left div_time text-center">
+                                        <div class="div_date">
+                                            07
+                                        </div>
+                                        <div class="div_month">2019-05</div>
+                                    </div>
+                                    <!--内容-->
+                                    <div class="notice_detail ml-1 float-left ml-3">
+                                        <a href="" class="">关于举行南京大学2019年学生毕业典礼暨学位授予仪式的通知</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--科学研究和校园生活-->
+    <div class="my_width">
+        <div class="w-100 row mt-4 mx-0 justify-content-around">
+            <!--科学研究-->
+            <div class="col-lg-8 col-sm-6">
+                <!--标题科学研究-->
+                <div class="clearfix mb-2">
+                    <p class="h5 float-left my_h5_color">科学研究</p>
+                    <img src="./images/more.jpg" alt="" class="float-right mr-5"/>
+                </div>
+                <div class="row m-0">
+                    <div class="col-6 p-0 div_study">
+                        <a href="" class="d-block a_study1">
+                            <span class="d-block position-absolute">模式所甘振继课题组发现肝脏蛋白与脂质运输的营养感受调节新机制</span>
+                        </a>
+                    </div>
+                    <div class="col-6 p-0 div_study">
+                        <a href="" class="d-block a_study2">
+                            <span class="d-block position-absolute">南京大学主导研制的多项工业水回用国际标准获得突破性进展</span>
+                        </a>
+                    </div>
+                    <div class="col-6 p-0 div_study">
+                        <a href="" class="d-block a_study3">
+                            <span class="d-block position-absolute">张海军教授课题组在磁性拓扑绝缘体研究方面取得重要进展</span>
+                        </a>
+                    </div>
+                    <div class="col-6 p-0 div_study">
+                        <a href="" class="d-block a_study4">
+                            <span class="d-block position-absolute">化学化工学院郑佑轩课题组在《先进材料》等报道手性材料和器件方面的研究进展</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--校园生活-->
+            <div class="col-lg-4 col-sm-12 p-0">
+                <!--标题校园生活-->
+                <div class="clearfix mb-2">
+                    <p class="h5 float-left my_h5_color">校园生活</p>
+                    <img src="./images/more.jpg" alt="" class="float-right"/>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--container的div-->
+</div>
+</body>
+</html>
