@@ -71,9 +71,13 @@ body{
     max-width: 1200px;
     margin:0 auto;
     font-size:0.9rem;
+}
+.my_nav2_div{
+    margin:0 auto;
+    font-size:0.9rem;
     display: flex;
 }
-.my_nav2>div{
+.my_nav2_div>div{
     width:111px;
     text-align: center;
 }
@@ -240,6 +244,9 @@ body{
     margin-bottom: 50px;
     overflow: hidden;
 }
+.div_study>.div_study_right{
+    margin-right: 20px;
+}
 .a_study1{
     background-image: url(../images/e19ccff1-3039-4d28-990f-aeb48da9210b.png);
 }
@@ -254,7 +261,44 @@ body{
 }
 .div_study>a>span{
     color:#fff;
-    margin:14px 50px 8px 0;
+    margin:14px 3px 0px 0;
+    line-height: 20px;
+    background-color: #000000;
+    opacity: 0.6;
+    font-family: "Microsoft YaHei";
+    padding: 5px;
+    bottom:0px;
+}
+/*Ð£Ô°Éú»î*/
+.div_font1{
+    float:left;
+    border-top:3px solid #63065f;
+}
+.div_font1>a{
+    display: block;
+    margin:20px 0 15px;
+}
+.my_campus{
+    line-height: 20px;
+    overflow: hidden;
+}
+.my_campus>a{
+    font-family:"Microsoft YaHei" ;
+    color: #000;
+    font-size: 12px;
+}
+.div_imgcampus{
+    margin-top:24px;
+}
+.div_imgcampus a{
+    background-image: url(../images/1f31ed5e-9e71-4d67-8272-5de332a065c8.jpg);
+    background-size: cover;
+    height:174px;
+    background-position: center top;
+}
+.div_imgcampus span{
+    color:#fff;
+    margin:14px 0px 0px 0;
     line-height: 20px;
     background-color: #000000;
     opacity: 0.6;
