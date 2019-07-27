@@ -68,13 +68,13 @@
         }
     }*/
     var search_img=document.getElementById("search_img")
-console.log(search_img);
+//console.log(search_img);
 var search=document.getElementById("search")
-console.log(search);
+//console.log(search);
     search_img.onclick=function(){
-        console.log(1);
-        console.log(search)
+        //console.log(1);
+        //console.log(search)
         search.style.width="150px";
-        console.log(2);
+        //console.log(2);
     }
 })()
