@@ -408,6 +408,12 @@ body{
     height:174px;
     background-position: center top;
 }
+@media screen and (max-width:800px){
+    .div_imgcampus{
+        display:none;
+    }
+}
+
 .div_imgcampus span{
     color:#fff;
     margin:14px 0px 0px 0;
